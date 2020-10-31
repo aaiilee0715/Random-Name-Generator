@@ -1,0 +1,98 @@
+body {
+    background-color: #a5c0e9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+.image {
+    display: inline;
+    width: 688px;
+    height: 203px;
+    position: relative;
+}
+
+.btn {
+    background-color:#002627;
+    color: white;
+    font-size: small;
+}
+
+#studentName {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(238, 134, 85);
+}
+
+#title {
+    font-size: 20px;
+    color: #322A60;
+}
+
+#randomQuote {
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2, p {
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration-line: underline;
+    text-decoration-color: #7D314C;
+    color: #7D314C;
+}
+
+p {
+    text-decoration-line: none;
+}
+
+#inputText {
+    color: #002627;
+    font-weight: bolder;
+}
+
+#outputText {
+    color: #005500;
+    font-size: 25px;
+}
+
+li {
+    padding-left: 1rem;
+    text-indent: -0.7rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li:nth-child(3n+1)::before {
+    content: "🐱";
+}
+
+li:nth-child(3n+2)::before {
+    content: "🐶 ";
+}
+
+li:nth-child(3n)::before {
+    content: "🦄 ";
+    
+}
+li:nth-child(4n)::before {
+    content: "🐻 ";
+    
+}
+li:nth-child(5n)::before {
+    content: "🐷";
+    
+}
+li:nth-child(6n)::before {
+    content: "🦥 ";
+    
+}
+li:nth-child(7n)::before {
+    content: "🦨";
+    
+}
+
